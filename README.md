@@ -2,35 +2,25 @@
 Utilizando o Aprendizado de Máquina para Combater a Criminalidade em Chicago
 
 
-Este projeto contém a estrutura de arquivos e diretórios para a pesquisa realizada no contexto de um artigo científico. Os dados analisados, as metodologias de pré-processamento, clustering, modelagem e visualização estão organizados em diretórios específicos para facilitar o entendimento e a replicação dos resultados.
+This project contains the file and directory structure for research carried out in the context of a scientific article. The analyzed data, pre-processing, clustering, modeling and visualization methodologies are organized in specific directories to facilitate understanding and replication of results.
 
 
-## Estrutura de Diretórios
+## Directory Structure
 
-- `BaseDados/`: Contém os conjuntos de dados brutos e modificados utilizados na pesquisa.
-  - `alterado.csv`: Dados modificados ou transformados a partir dos conjuntos brutos.
-  - `Crimes_-_2001_to_Present.csv`: Dados sobre crimes ocorridos desde 2001 até o presente.
-  - `CPD_Parks.csv`: Informações sobre parques.
-  - `ParaClasificacao.csv`: Dados preparados para classificação.
-  - `Sex_Offenders.csv`: Dados sobre agressores sexuais.
+  - `Clustering/`: Notebooks and scripts dedicated to clustering techniques applied to data.
+  - `DBSCAN/`: Specific analysis using the DBSCAN algorithm.
+  - `KMeans/`: Specific analysis using the KMeans algorithm.
+  - `Som/`: Specific analysis using Self-Organizing Maps (SOM).
 
-
-
-  - `Clustering/`: Notebooks e scripts dedicados às técnicas de clustering aplicadas aos dados.
-  - `DBSCAN/`: Análise específica usando o algoritmo DBSCAN.
-  - `KMeans/`: Análise específica usando o algoritmo KMeans.
-  - `Som/`: Análise específica usando Mapas Auto-Organizáveis (SOM).
+  
+`Models/`: Notebooks that deal with the application of machine learning models in addition to clustering methods.
 
 
-  `Modelos/`: notebooks que tratam da aplicação de modelos de aprendizado de máquina além dos métodos de clustering.
+- `Pre_Processing/`: Scripts and notebooks dedicated to pre-processing data, preparing it for subsequent analysis.
+  - `Base_Crimes/`: Pre-processing of crime data.
+  - `Base_parks/`: Pre-processing of park data.
+  - `Base_SexOffenders/`: Pre-processing data on sexual offenders.
+  - `IntegracaoDasBases/`: Final pre-processing of the ready base..
 
-
-
-- `Pre_Processamento/`: Scripts e notebooks dedicados ao pré-processamento dos dados, preparando-os para análises subsequentes.
-  - `Base_Crimes/`: Pré-processamento dos dados de crimes.
-  - `Base_parks/`: Pré-processamento dos dados dos parques.
-  - `Base_SexOffenders/`: Pré-processamento dos dados dos agressores sexuais.
-  - `IntegracaoDasBases/`: Pré-processamento final da base pronta.
-
-- `Visualização/`: Notebooks que contêm visualizações dos dados e dos resultados das análises.
-  - `Visualizacao_Dados.ipynb`: Notebook com visualizações gerais e específicas dos dados e resultados.
+- `Visualization/`: Notebooks that contain visualizations of data and analysis results.
+  - `Visualizacao_Dados.ipynb`: Notebook with general and specific views of data and results.
