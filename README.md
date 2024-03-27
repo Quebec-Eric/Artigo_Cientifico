@@ -1,5 +1,6 @@
-# Artigo_cient-fico
-Utilizando o Aprendizado de Máquina para Combater a Criminalidade em Chicago
+
+# Scientific article
+Using Machine Learning to Fight Crime in Chicago
 
 
 This project contains the file and directory structure for research carried out in the context of a scientific article. The analyzed data, pre-processing, clustering, modeling and visualization methodologies are organized in specific directories to facilitate understanding and replication of results.
